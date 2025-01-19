@@ -38,7 +38,7 @@ I have used the default flask app to run and deploy in the terminal.
 ## **Steps to run the flask app:**
   1. run the **run_app.py**.
   2. after succesfull running you will get the message as - 
-     
+     ![alt text](https://github.com/sarveshadithya17/E-commerce_product_recommendation_system/blob/3cae428be2f1d89a4d2631fac8046ff82f07746e/succesfull_running.png?raw=true)
 
 | ⚠️  This project is solely for learning how recommedation systems work. ⚠️ |
 |-----------------------------------------------------------------------------|
