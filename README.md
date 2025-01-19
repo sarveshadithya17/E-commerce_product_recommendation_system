@@ -39,6 +39,10 @@ I have used the default flask app to run and deploy in the terminal.
   1. run the **run_app.py**.
   2. after succesfull running you will get the message as - 
      ![alt text](https://github.com/sarveshadithya17/E-commerce_product_recommendation_system/blob/3cae428be2f1d89a4d2631fac8046ff82f07746e/succesfull_running.png?raw=true)
+  3. Open terminal and enter the following command:-
+     **$response = Invoke-RestMethod -Uri http://127.0.0.1:5000/recommend -Method POST -ContentType "application/json" -Body '{"user_id": 3, "num_products": 5}'
+       $response | Out-File -FilePath "recommendations.json"**
+  4. Then you will get the required recommendation of from the model.
 
 | ⚠️  This project is solely for learning how recommedation systems work. ⚠️ |
 |-----------------------------------------------------------------------------|
