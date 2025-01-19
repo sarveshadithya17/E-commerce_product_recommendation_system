@@ -30,7 +30,14 @@ Approach -
   1. Call the previous similar users function to get the similar users for the desired user_id.
   2. Find prod_ids with which the original user has interacted -> observed_interactions
   3. For each similar user Find 'n' products with which the similar user has interacted with but not the actual user.
-  4. return the specified number of products. 
+  4. return the specified number of products.
+
+## How to deploy in the local system?
+
+I have used the default flask app to run and deploy in the terminal.
+## **Steps to run the flask app:**
+  1. run the **run_app.py**.
+  2. after succesfull running you will get the message as - 
      
 
 | ⚠️  This project is solely for learning how recommedation systems work. ⚠️ |
