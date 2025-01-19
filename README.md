@@ -35,7 +35,7 @@ Approach -
 
 ## How to deploy in the local system?
 
-*I have used the default flask app to run and deploy in the terminal.  
+* I have used the default flask app to run and deploy in the terminal.  
 * Here after running the the main .ipynb file at last save the "final_ratings_matrix.csv" in the main directory.  
 * Replace appropriate file paths in the project, in your own system file paths after downloading the files like datasets and "final_ratings_matrix.csv"  
 ## **Steps to run the flask app:**
