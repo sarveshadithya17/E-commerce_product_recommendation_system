@@ -9,6 +9,7 @@ I have used an amazon dataset on user ratings for electronic products, this data
 * You can find the [dataset](https://www.kaggle.com/datasets/vibivij/amazon-electronics-rating-datasetrecommendation/download?datasetVersionNumber=1) here - https://www.kaggle.com/datasets/vibivij/amazon-electronics-rating-datasetrecommendation/download?datasetVersionNumber=1 
 
 * You can find many other similar datasets here - https://jmcauley.ucsd.edu/data/amazon/
+* Here the data set should be saved in the main branch
 
 
 ## Approach
@@ -34,7 +35,9 @@ Approach -
 
 ## How to deploy in the local system?
 
-I have used the default flask app to run and deploy in the terminal.
+*I have used the default flask app to run and deploy in the terminal.  
+* Here after running the the main .ipynb file at last save the "final_ratings_matrix.csv" in the main directory.  
+* Replace appropriate file paths in the project, in your own system file paths after downloading the files like datasets and "final_ratings_matrix.csv"  
 ## **Steps to run the flask app:**
   1. run the **run_app.py**.
   2. after succesfull running you will get the message as - 
