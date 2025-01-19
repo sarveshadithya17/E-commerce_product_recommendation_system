@@ -42,7 +42,7 @@ I have used the default flask app to run and deploy in the terminal.
   3. Open terminal and enter the following command:  
      **$response = Invoke-RestMethod -Uri http://127.0.0.1:5000/recommend -Method POST -ContentType "application/json" -Body '{"user_id": 3, "num_products": 5}'  
        $response | Out-File -FilePath "recommendations.json"**
-  4. Then you will get the required recommendation of from the model.
+  4. Then you will get the required recommendation from the model.
 
 | ⚠️  This project is solely for learning how recommedation systems work. ⚠️ |
 |-----------------------------------------------------------------------------|
