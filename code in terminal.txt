@@ -1,0 +1,4 @@
+1. $response = Invoke-RestMethod -Uri http://127.0.0.1:5000/recommend -Method POST -ContentType "application/json" -Body '{"user_id": 3, "num_products": 5}'
+   $response.recommendations
+
+2. 
